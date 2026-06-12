@@ -19,3 +19,37 @@ A beginner-friendly web development project built using HTML and CSS. This proje
 * HTML5
 * CSS3
 <img src="HTML & CSS/coffee_landing_page_image.png" width="700">
+
+### 2.To-Do List App
+
+A simple and interactive To-Do List application built with HTML, CSS, and JavaScript.
+
+## Features
+
+* Add new tasks
+* Mark tasks as completed
+* Delete tasks
+* Save tasks using Local Storage
+* Responsive design
+* Modern red-themed UI
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6)
+* Local Storage API
+
+## What I Learned
+
+* DOM Manipulation
+* Event Handling
+* Arrays and Objects
+* Local Storage
+* Dynamic Rendering
+* Responsive Design
+
+## Project Preview
+<img src="frontend/to-do-image.png" width="700">
+
+
