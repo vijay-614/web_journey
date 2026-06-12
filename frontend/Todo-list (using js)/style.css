@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #8B0000,
+        #DC143C,
+        #FF4D4D
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.container {
+    width: 450px;
+    padding: 30px;
+
+    background: rgba(255, 255, 255, 0.95);
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+
+    color: #b30000;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+}
+
+#taskInput {
+    flex: 1;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 16px;
+}
+
+#taskInput:focus {
+    outline: none;
+    border-color: #DC143C;
+}
+
+#addBtn {
+    padding: 12px 18px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #DC143C;
+    color: white;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+#addBtn:hover {
+    transform: scale(1.05);
+    background: #b30000;
+}
+
+#taskList {
+    list-style: none;
+    margin-top: 25px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #f8f8f8;
+
+    padding: 12px;
+    margin-bottom: 12px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s;
+}
+
+.task:hover {
+    transform: translateY(-2px);
+}
+
+.task span {
+    font-size: 16px;
+    word-break: break-word;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.complete-btn {
+    background: #28a745;
+    color: white;
+
+    border: none;
+
+    padding: 6px 10px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    margin-right: 5px;
+
+    transition: 0.3s;
+}
+
+.complete-btn:hover {
+    transform: scale(1.05);
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+
+    border: none;
+
+    padding: 6px 10px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.delete-btn:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 500px) {
+
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .task {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+}
