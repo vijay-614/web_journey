@@ -80,4 +80,31 @@ A simple and interactive Quiz Application built using HTML, CSS, and JavaScript.
 * State Management
 <img src="frontend/Quiz (js)/quiz_image.png" width="700">
 
+## 4.Expense Tracker
+
+A modern Expense Tracker built with HTML, CSS, and JavaScript.
+
+### Features
+- Add Income & Expenses
+- Real-time Balance Calculation
+- Delete Transactions
+- Local Storage Support
+- Responsive Dashboard UI
+
+### Technologies
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Local Storage API
+
+### Concepts Learned
+- DOM Manipulation
+- Arrays & Objects
+- forEach()
+- filter()
+- reduce()
+- localStorage
+  
+<img src="frontend/Expense_tracker/et_image.png" width="700">
+
 
