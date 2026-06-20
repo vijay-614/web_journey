@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroCast Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>AeroCast</h2>
+            <p>Weather Dashboard</p>
+        </div>
+
+        <nav>
+            <ul>
+                <li class="active">🏠 Dashboard</li>
+                <li>🗺️ Maps</li>
+                <li>📊 Analytics</li>
+                <li>📄 Reports</li>
+                <li>⚠️ Alerts</li>
+            </ul>
+        </nav>
+
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Top Bar -->
+        <header class="topbar">
+
+    <div class="search-box">
+
+    <input
+        type="text"
+        id="cityInput"
+        placeholder="Search city..."
+    >
+
+    <button id="searchBtn">
+        Search
+    </button>
+
+</div>
+<button id="locationBtn">
+    📍 My Location
+</button>
+    <div class="profile">
+
+        <span>🔔</span>
+
+        <div class="user">
+
+            <h4>Vijay_AI</h4>
+            <p>Weather Analyst</p>
+
+        </div>
+
+        <img
+            src="https://cdn-icons-png.flaticon.com/128/1999/1999625.png"
+            alt="profile"
+        >
+
+    </div>
+
+</header>
+
+        <!-- Weather Card -->
+        <section class="weather-card">
+
+    <div class="weather-left">
+
+        <h2 id="city">Hyderabad</h2>
+
+        <h1 id="temp">31°C</h1>
+
+        <p id="condition">Partly Cloudy</p>
+
+        <div class="weather-extra">
+
+            <span>H: 34°C</span>
+            <span>L: 26°C</span>
+
+        </div>
+
+    </div>
+
+    <div class="weather-icon">
+
+        ☁️
+
+    </div>
+
+</section>
+
+        <!-- Forecast -->
+        <section class="forecast">
+
+            <h3>7 Day Forecast</h3>
+
+            <div class="forecast-list">
+
+                <div class="forecast-item">Mon 31°</div>
+                <div class="forecast-item">Tue 29°</div>
+                <div class="forecast-item">Wed 33°</div>
+                <div class="forecast-item">Thu 30°</div>
+                <div class="forecast-item">Fri 28°</div>
+
+            </div>
+
+        </section>
+        <section class="hourly-card">
+
+    <h3>Hourly Forecast</h3>
+
+    <div class="hourly-list">
+
+        <div>Now<br>31°</div>
+        <div>2 PM<br>32°</div>
+        <div>3 PM<br>33°</div>
+        <div>4 PM<br>31°</div>
+        <div>5 PM<br>30°</div>
+
+    </div>
+
+</section>
+
+<section class="radar-card">
+
+    <h3>Local Radar</h3>
+
+    <div class="radar-placeholder">
+
+    <iframe
+        id="weatherMap"
+        width="100%"
+        height="250"
+        frameborder="0">
+    </iframe>
+
+</div>
+
+</section>
+
+<section class="alert-card">
+
+    <h3>⚠ Weather Alert</h3>
+
+    <p>
+        Heavy rainfall expected within the next 24 hours.
+    </p>
+
+</section>
+
+        <!-- Stats Grid -->
+        <section class="stats-grid">
+
+            <div class="stat-card">
+                <h4>Humidity</h4>
+                <p id="humidity">64%</p>
+            </div>
+
+            <div class="stat-card">
+                <h4>Wind Speed</h4>
+                <p id="wind">12 km/h</p>
+            </div>
+
+            <div class="stat-card">
+                <h4>Pressure</h4>
+                <p id="pressure">1012 hPa</p>
+            </div>
+
+            <div class="stat-card">
+                <h4>Visibility</h4>
+                <p id="visibility">10 km</p>
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
