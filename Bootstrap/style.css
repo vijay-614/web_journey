@@ -1,0 +1,314 @@
+/* ================= GENERAL ================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #080808;
+    color: #ffffff;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background: #050505 !important;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.navbar-brand {
+    color: #ff1e1e !important;
+}
+
+.nav-link {
+    color: #cccccc !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #ff1e1e !important;
+}
+
+
+/* ================= HERO ================= */
+
+.hero {
+    background:
+        radial-gradient(
+            circle at 80% 50%,
+            rgba(255, 0, 0, 0.20),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #050505,
+            #160000,
+            #080808
+        );
+}
+
+.hero h1 {
+    color: #ffffff;
+}
+
+.hero .text-secondary {
+    color: #aaaaaa !important;
+}
+
+.hero .text-primary {
+    color: #ff1e1e !important;
+}
+
+.hero-laptop {
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+
+    box-shadow:
+        0 0 40px rgba(255, 0, 0, 0.25);
+}
+
+
+/* ================= BUTTONS ================= */
+
+.btn-primary {
+    background-color: #e50914;
+    border-color: #e50914;
+}
+
+.btn-primary:hover {
+    background-color: #ff1e1e;
+    border-color: #ff1e1e;
+
+    box-shadow:
+        0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+.btn-outline-dark {
+    color: white;
+    border-color: #666;
+}
+
+.btn-outline-dark:hover {
+    background-color: #e50914;
+    border-color: #e50914;
+}
+
+
+/* ================= FEATURES ================= */
+
+#features {
+    background:
+        linear-gradient(
+            180deg,
+            #0a0a0a,
+            #120000
+        ) !important;
+}
+
+.feature-card {
+    background: #111111;
+
+    border: 1px solid #292929;
+
+    border-radius: 20px;
+
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #e50914;
+
+    box-shadow:
+        0 15px 40px rgba(255, 0, 0, 0.15);
+}
+
+.feature-card h4 {
+    color: white;
+}
+
+.feature-card p {
+    color: #999999 !important;
+}
+
+.feature-icon {
+    width: 70px;
+    height: 70px;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(229, 9, 20, 0.12);
+
+    color: #ff1e1e;
+
+    border: 1px solid rgba(255, 0, 0, 0.3);
+
+    border-radius: 50%;
+
+    font-size: 30px;
+}
+
+
+/* ================= PRODUCTS ================= */
+
+#laptops {
+    background: #080808;
+}
+
+#laptops .text-secondary {
+    color: #999999 !important;
+}
+
+.product-card {
+    background: #111111;
+
+    color: white;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    border: 1px solid #292929 !important;
+
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+
+    border-color: #e50914 !important;
+
+    box-shadow:
+        0 20px 40px rgba(255, 0, 0, 0.2) !important;
+}
+
+.product-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.product-card h3 {
+    color: white;
+}
+
+.product-card h4 {
+    color: #ff1e1e;
+}
+
+.product-card .btn-outline-primary {
+    color: #ff1e1e;
+    border-color: #e50914;
+}
+
+.product-card .btn-outline-primary:hover {
+    color: white;
+    background: #e50914;
+}
+
+
+/* ================= SPECIFICATIONS ================= */
+
+.spec-section {
+    background:
+        radial-gradient(
+            circle at 20% 50%,
+            rgba(255, 0, 0, 0.12),
+            transparent 30%
+        ),
+        #0d0d0d;
+}
+
+.spec-section .text-secondary {
+    color: #999999 !important;
+}
+
+.spec-box {
+    background: #111111;
+
+    border: 1px solid #292929;
+
+    border-radius: 25px;
+
+    padding: 50px;
+
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.spec-box h5 {
+    color: white;
+}
+
+.spec-box i {
+    color: #ff1e1e !important;
+}
+
+.progress {
+    background: #292929;
+}
+
+.progress-bar {
+    background: #e50914;
+}
+
+
+/* ================= CTA ================= */
+
+.cta-section {
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(255, 0, 0, 0.35),
+            transparent 60%
+        ),
+        linear-gradient(
+            135deg,
+            #120000,
+            #050505
+        );
+
+    border: 1px solid #3a0000;
+
+    box-shadow:
+        0 0 50px rgba(255, 0, 0, 0.12);
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: #030303 !important;
+
+    border-top: 1px solid #222;
+}
+
+footer h3 {
+    color: #ff1e1e;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero .d-flex {
+        justify-content: center;
+    }
+
+}
