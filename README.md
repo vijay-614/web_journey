@@ -160,6 +160,36 @@ This project helped me practice:
 - Open-Meteo Weather API
 
 
+## 6. 💻 LaptopX — Laptop Landing Page
+
+A modern, responsive laptop landing page built using **HTML, CSS, and Bootstrap 5** with a premium red & black theme.
+
+<img src="Bootstrap/lapx.png" width="700">
+
+##  ✨ Features
+
+* Responsive Bootstrap navbar
+* Premium red & black UI
+* Hero section
+* Laptop product cards
+* Features section
+* Specifications section
+* Call-to-action section
+* Responsive design for mobile, tablet, and desktop
+
+## 🛠️ Technologies
+
+* HTML5
+* CSS3
+* Bootstrap 5
+* Bootstrap Icons
+
+## 📌 Project
+
+This project was created to practice **Bootstrap layouts, responsive grids, components, spacing, and custom CSS styling**.
+
+
+
 
 
 
